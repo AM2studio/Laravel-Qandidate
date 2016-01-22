@@ -29,7 +29,7 @@ Register the facade in your `app.php`
 Publish migration file and run migration
 
 ```php
-php artisan vendor:publish --provider="AM2Studio\~Qandidate\LaravelQandidateServiceProvider" --tag="migrations"
+php artisan vendor:publish --provider="AM2Studio\LaravelQandidate\LaravelQandidateServiceProvider" --tag="migrations"
 php artisan migrate
 ```
 
