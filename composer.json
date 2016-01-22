@@ -1,0 +1,45 @@
+{
+    "name": "am2studio/laravel-qandidate",
+    "description": "Service provider for qandidate",
+    "keywords": [
+        "AM2Studio",
+        "Qandidate"
+    ],
+    "homepage": "https://github.com/AM2Studio/laravel-qandidate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marko Šamec",
+            "email": "marko.samec@am2studio.hr",
+            "homepage": "https://am2studio.hr",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "laravelcollective/html": "~5.0",
+        "php" : ">=5.3.0",
+        "qandidate/toggle": "0.3.0",
+        "symfony/expression-language": "3.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "AM2Studio\\LaravelQandidate\\": "src/LaravelQandidate"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
