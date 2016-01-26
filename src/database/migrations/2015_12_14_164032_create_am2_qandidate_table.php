@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateQandidateTable extends Migration
+class CreateAm2QandidateTable extends Migration
 {
     /**
      * Run the migrations.
