@@ -40,8 +40,8 @@ class Qandidate
      *
      * @param null $featureName
      * @param array $attributes
-     * @return True
      * @throws QandidateException
+     * @return True
      */
     public function active($featureName = null, $attributes = [])
     {

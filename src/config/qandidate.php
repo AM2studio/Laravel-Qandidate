@@ -1,6 +1,6 @@
 <?php
 return [
     'defaultRoutes' => true,
-    'routePrefix' => 'qandidate',
-    'middlewares' => []
+    'routePrefix'   => 'qandidate',
+    'middlewares'   => []
 ];

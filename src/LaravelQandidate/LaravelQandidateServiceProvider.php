@@ -83,6 +83,5 @@ class LaravelQandidateServiceProvider extends ServiceProvider
         $this->app->bind('qandidate', function ($app) {
             return new Qandidate($app);
         });
-
     }
 }
